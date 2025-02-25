@@ -1,4 +1,4 @@
-package com.example.expensplit;
+package com.example.expensplit.Services;
 
 import com.example.expensplit.model.User;
 import com.example.expensplit.repository.UserRepository;
