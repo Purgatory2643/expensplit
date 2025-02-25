@@ -16,13 +16,6 @@ public class UserController {
     @Autowired
     private UserServices userServices;
 
-    @GetMapping(value = "/user")
-    public User getUser(){
-        User user = new User();
-        user.setUsername("ThakurAbhishek");
-        user.setEmail("abhishekaman02@gmail.com");
-        return user;
-    }
     @GetMapping(value = "/allusers")
     public List<User> getAllUser(){
         return userServices.getUsers();
